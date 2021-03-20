@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <groups>
+  	<run>
+  		<include name="sanity"/>
+  	</run>
+  </groups>
+    <classes>
+      <class name="practice.Sample1"/>
+      <class name="practice.Sample2"/>
+      <class name="practice.Sample3"/>
+      <class name="practice.Sample4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
